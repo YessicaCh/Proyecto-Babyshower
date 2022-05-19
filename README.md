@@ -7,6 +7,8 @@ Se encuentra desplegado en [https://babyshower2022.herokuapp.com/ ](https://baby
 
 [![Watch the video](https://github.com/YessicaCh/Proyecto-Babyshower/blob/main/Portada.png)](https://youtu.be/DXHjxj3Kw0A)
 
+Video Explicativo [Video ](https://youtu.be/DXHjxj3Kw0A)
+
 ## Stack Tecnológico 
  1. Frontend
       - Html, css, Boostrap 5
