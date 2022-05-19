@@ -2,12 +2,10 @@
 
 En este proyecto se presenta una tarjeta de invitacion para un babyshower de forma dinamica, donde los anfitriones publican la lista de regalos que los invitados pueden llevar, un invitado puede registrar su nombre en el regalo que lleve.
 
-(https://github.com/YessicaCh/Proyecto-Babyshower/blob/main/Portada.png)
-Se encuentra desplegado en [Web Desplegado ](https://babyshower2022.herokuapp.com/)
 
 Se encuentra desplegado en [Web Desplegado ](https://babyshower2022.herokuapp.com/)
 
-[![Watch the video](https://youtu.be/DXHjxj3Kw0A)
+[![Watch the video](https://github.com/YessicaCh/Proyecto-Babyshower/blob/main/Portada.png)](https://youtu.be/DXHjxj3Kw0A)
 
 ## Stack Tecnológico 
  1. Frontend
