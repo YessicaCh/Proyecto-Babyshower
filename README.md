@@ -1,20 +1,17 @@
 # Proyecto-Babyshower
 
-## Explicación del proyecto
 En este proyecto se presenta una tarjeta de invitacion para un babyshower de forma dinamica, donde los anfitriones publican la lista de regalos que los invitados pueden llevar, un invitado puede registrar su nombre en el regalo que lleve.
-
-
 
 [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
 
 ## Stack Tecnológico 
-## 1. Frontend
+# 1. Frontend
       - Html, css, Boostrap 5
-## 2. Backend
+# 2. Backend
       - NodeJs,Express 
-## 3. DataBase
+# 3. DataBase
       - MongoDb Atlas(servicio gratuito)
-## 4. Deploy
+# 4. Deploy
       - Heroku(servicio gratuito)
 
 ## Documenta el codigo que hiciste, puedes usar la documentación de abajo como ejemplo
