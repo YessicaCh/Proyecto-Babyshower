@@ -5,38 +5,48 @@ En este proyecto se presenta una tarjeta de invitacion para un babyshower de for
 [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
 
 ## Stack Tecnológico 
-# 1. Frontend
+ 1. Frontend
       - Html, css, Boostrap 5
-# 2. Backend
+ 2. Backend
       - NodeJs,Express 
-# 3. DataBase
+ 3. DataBase
       - MongoDb Atlas(servicio gratuito)
-# 4. Deploy
+ 4. Deploy
       - Heroku(servicio gratuito)
 
-## Documenta el codigo que hiciste, puedes usar la documentación de abajo como ejemplo
 ### Endpoints API
 Define como funciona tu API
 
-#### Get all items
+
+#### Muestra toda la lista de regalos 
 
 ```http
-  GET /api/items
+  GET /api/gifts
 ```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
-
-#### Get item
+#### Registra un usuario con un regalo
 
 ```http
-  GET /api/items/${id}
+  POST /api/users
 ```
 
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
+| Parameter  | Type     | Description                       |
+| :--------  | :------- | :-------------------------------- |
+| `name`     | `string` | **Required**. nombre de usuario   |
+| `giftName` | `string` | **Required**. nombre de regalo    |
+| `idGift`   | `string` | **Required**. Id de regalo        |
+
+#### Registrar regalos
+
+```http
+  POST /api/users
+```
+
+| Parameter    | Type     | Description                            |
+| :----------- | :------- | :--------------------------------------|
+| `name`       | `string` | **Required**. nombre de regalo         |
+| `description`| `string` | **Required**. description de regalo    |
+| `limit`      | `int`    | **Required**. Cantidad de producto     |
+| `img`        | `file`   | **Required**. img referencial          |
 
 #### add(num1, num2)
 
