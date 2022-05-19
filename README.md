@@ -15,14 +15,25 @@ En este proyecto se presenta una tarjeta de invitacion para un babyshower de for
       - Heroku(servicio gratuito)
 
 ### Endpoints API
-Define como funciona tu API
-
 
 #### Muestra toda la lista de regalos 
 
 ```http
   GET /api/gifts
 ```
+#### Registra regalos
+
+```http
+  POST /api/gifts
+```
+
+| Parameter    | Type     | Description                            |
+| :----------- | :------- | :--------------------------------------|
+| `name`       | `string` | **Required**. nombre de regalo         |
+| `description`| `string` | **Required**. description de regalo    |
+| `limit`      | `int`    | **Required**. Cantidad de producto     |
+| `img`        | `file`   | **Required**. img referencial          |
+
 #### Registra un usuario con un regalo
 
 ```http
@@ -34,19 +45,6 @@ Define como funciona tu API
 | `name`     | `string` | **Required**. nombre de usuario   |
 | `giftName` | `string` | **Required**. nombre de regalo    |
 | `idGift`   | `string` | **Required**. Id de regalo        |
-
-#### Registrar regalos
-
-```http
-  POST /api/users
-```
-
-| Parameter    | Type     | Description                            |
-| :----------- | :------- | :--------------------------------------|
-| `name`       | `string` | **Required**. nombre de regalo         |
-| `description`| `string` | **Required**. description de regalo    |
-| `limit`      | `int`    | **Required**. Cantidad de producto     |
-| `img`        | `file`   | **Required**. img referencial          |
 
 #### add(num1, num2)
 
